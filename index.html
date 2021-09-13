@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- == EXTERNAL LINKS START == -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+  <link rel="icon" href="assets/images/logo2.svg" type="image/gif" sizes="32x32">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- == EXTERNAL LINKS END == -->  
+  <title>Trippyverse</title>
+</head>
+<body>
+		<!-- ***** Preloader Start ***** -->
+		<div id="preloader">
+			<div class="jumper">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<!-- ***** Preloader End ***** -->
+
+  
+  <!-- ==== HEADER START ==== -->
+      <header data-aos="fade" class="header-area header-sticky">
+        <div class="page_container">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 gx-0">
+                <nav class="main-nav" data-scroll-reveal="enter top move 50px over 0.6s after 0.1s">
+                  <!-- ***** Logo Start ***** -->
+                  <a href="#home" class="logo"> <img src="./assets/images/logo.svg" alt=""> </a>
+                  <!-- ***** Logo End ***** -->
+                  <!-- ***** Menu Start ***** -->
+                  <ul class="nav d-flex align-items-center">
+                    <li><a onclick="closeFunc()" class="active" href="#home">Home</a></li>
+                    <li><a onclick="closeFunc()" href="#rar">Rarities</a></li>
+                    <li><a onclick="closeFunc()" href="#rm">Roadmap</a></li>
+                    <li><a onclick="closeFunc()" href="#about">About</a></li>
+                    <li><a onclick="closeFunc()" href="#team">Team</a></li>
+                    <li><a onclick="closeFunc()" href="#faq ">FAQ</a></li>
+                    <li class="btn_header"><a href="#">
+                      <button>
+                        Connect
+                      </button>
+                    </a></li>
+                  </ul>
+                  <a class="menu-trigger">
+                    <span>Menu</span>
+                  </a>
+                  <!-- ***** Menu End ***** -->
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>  
+  <!-- ==== HEADER END ==== -->
+
+  <!-- ==== HERO START ==== -->
+  <div id="home" class="hero_container">
+    <div class="page_container">
+      <div class="container-fluid">
+        <div class="row gy-5 align-items-center">
+          <div data-aos="fade-right" data-aos-delay="400" class="col-11 col-md-10 col-lg-6 mx-auto">
+            <h1 class="mb-0 fw600 text-white">Welcome to</h1>
+            <h1 class="display-3 fw700 text-white">Trippyverse!</h1>
+            <p class="my-4 color1 mono">8,888 unique and tweaked out TRIPPYs, generated 
+              from tons of individualized traits, rooting from 
+              modern pop culture and current trends!</p>
+  <div id="clockdiv">
+    <div>
+      <span class="sans fw600 days"></span>
+      <div class="smalltext f16 mono">Days</div>
+    </div>
+    <img src="./assets/images/dots.svg" alt="" />
+    <div>
+      <span class="sans fw600 hours"></span>
+      <div class="smalltext f16 mono">Hours</div>
+    </div>
+    <img src="./assets/images/dots.svg" alt="" />
+    <div>
+      <span class="sans fw600 minutes"></span>
+      <div class="smalltext f16 mono">Minutes</div>
+    </div>
+    <img src="./assets/images/dots.svg" alt="" />
+    <div>
+      <span class="sans fw600 seconds"></span>
+      <div class="smalltext f16 mono">Seconds</div>
+  </div>
+</div>
+
+              <div class="d-flex mt-4">
+                <div class="btn_flex">
+                  <button class="py-2 f14 px-2 px-md-3 bg-white">1</button>
+                  <button class="py-2 text-white px-4 px-md-5 bgColor2">Mint</button>
+                </div>
+                <button class="ms-4 rounded-pill color2 bgColor5 border-0 px-4 px-md-5 py-2">7760 Remaining</button>
+              </div>
+        
+          </div>
+          <div data-aos="flip-left" data-aos-delay="800" class="col-11 col-md-10 col-lg-6 mx-auto">
+             <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper"> 
+          <div class="swiper-slide">
+            <img src="./assets/images/hero/i1.svg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/hero/i1.svg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/hero/i1.svg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assets/images/hero/i1.svg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==== HERO END ==== -->
+
+  <div id="about"></div>
+  <!-- ==== ABOUT START ==== -->
+  <div class="about_container">
+    <div class="about_inner h-100">
+      <div class="container-fluid h-100">
+        <div class="row text-center d-flex justify-content-center align-items-center h-100 position-relative">
+          <!-- ABS IMAGES START -->
+          <img data-aos="fade-right" data-aos-delay="400" class="position-absolute d-none d-lg-block" src="./assets/images/about.svg" alt="">
+          <!-- ABS IMAGES END -->
+          <div data-aos="fade">
+            <h3 class="sans text-white">About Trippyverse</h3>
+            <p class="mono mb-0 color6 mt-2 f18">The Trippyverse is one of the most advanced NFT platforms to release, 
+              beginning with their OGs, TRIPPYs. Regardless of how they look, 
+              angry or sad, TRIPPYs are the most giving, and kind creatures 
+              you will find. No matter how emotional they get, they will 
+              still stay rooted and treat everyone around them amazing. 
+              Oh, and have we mentioned they absolutely LOVE giving back?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ==== ABOUT END ==== -->
+
+  <div id="rar"></div>
+  <!-- ==== Rarities START ==== -->
+  <div class="rarities_container">
+    <div class="page_container h-100">
+      <div class="container-fluid h-100">
+        <div class="row">
+          <div data-aos="fade" class="col-11 col-md-12 mx-auto ">
+            <h1 class="sans text-white">Rarities</h1>
+            <p class="mono mb-0 color1 mt-3 f18">As a newly discovered creature, TRIPPYs keep their uniqueness and individualism 
+              throughout their entire species. There's no two same TRIPPYs, and all have different 
+              combinations of traits, with some being much rarer, and more desirable than others...
+              but that's up to you to decide what you like!</p>
+          </div>
+
+          <div class="col-11 col-md-12 mx-auto mt-4">
+            <div class="row gy-4 justify-content-center gx-5">
+              <div data-aos="fade-up" data-aos-delay="300" class="col-6 col-md-4">
+                <div class="single_rar1 position-relative">
+                  <img class="w-100" src="./assets/images/rarities/i1.svg" alt="">
+                  <div class="text-center py-2 mono">
+                    <p class="mb-1"><span class="text-white">Eyes:</span> <span class="color2"> Dollars · 5%</span></p>
+                    <p class="mb-0"><span class="text-white">Hat:</span> <span class="color2"> Party · 15%</span></p>
+                  </div>
+
+                  <!-- ABS IMAGES START -->
+                  <img data-aos="fade-right" data-aos-delay="1200" class="position-absolute d-none d-lg-block" src="./assets/images/rartiesRight.svg" alt="">
+                  <!-- ABS IMAGES END -->
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="600" class="col-6 col-md-4">
+                <div class="single_rar2">
+                  <img class="w-100" src="./assets/images/rarities/i2.svg" alt="">
+                   <div class="text-center py-2 mono">
+                    <p class="mb-1"><span class="text-white">Hat:</span> <span class="color2"> Halo · 1%</span></p>
+                    <p class="mb-0"><span class="text-white">Color:</span> <span class="color2"> Sparkle · 25%</span></p>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-delay="900" class="col-6 col-md-4">
+                <div class="single_rar3">
+                  <img class="w-100" src="./assets/images/rarities/i3.svg" alt="">
+                   <div class="text-center py-2 mono">
+                    <p class="mb-1"><span class="text-white">Item:</span> <span class="color2"> Guitar · 15%</span></p>
+                    <p class="mb-0"><span class="text-white">Clothes:</span> <span class="color2"> Tie · 60% </span></p>
+                  </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+  <!-- ==== Rarities END ==== -->
+
+  <div id="rm"></div>
+  <!-- ==== Roadmap START ==== -->
+  <div class="roadmap_container position-relative">
+            <!-- ABS IMAGES START -->
+            <img data-aos="fade-right" data-aos-delay="400" class="position-absolute start-0 d-none d-md-block" src="./assets/images/roadmap.svg" alt="">
+            <!-- ABS IMAGES END -->
+    
+    <div class="page_container h-100">
+      <div class="container-fluid h-100">
+        <div class="row">
+          <div data-aos="fade" class="col-11 col-md-12 mx-auto">
+            <h1 class="sans text-white">Roadmap</h1>
+            <p class="mono mb-0 color1 mt-3 f18">Curious for how we as a team see this project going? Check out the roadmap below to 
+              feel just as excited as we are to make this project happen!</p>
+            </div>
+            
+            <div data-aos="fade" data-aos-delay="300" class="col-11 col-sm-10 mx-auto mySwiper1_container position-relative mx-auto mt-5">
+
+            <div class="swiper mySwiper1">
+              <div class="swiper-wrapper"> 
+                <div class="swiper-slide">
+                  <div class="bgColor3 mono py-3 px-4 text-white"> 
+                    <p class="mb-1">Stage 1 - 0%</p>
+                    <p class="mb-0 opacity75">Early supporters will gain access to both a number of giveaways 
+                      and the whitelist for the TRIPPY presale.</p>
+                  </div>
+                  <div class="bgColor4 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">Stage 2 - 15%</p>
+                    <p class="mb-0 opacity75">Those who are on the whitelist will get the chance to purchase 
+                      TRIPPYs from our 1111 stock private presale, significantly raising 
+                      your odds of being able to acquire one of our unique buddies.
+                      </p>
+                  </div>
+                  <div class="bgColor2 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">
+                      Stage 3 - 25%
+                    </p>
+                    <p class="mb-0 opacity75">Once the presale has sold out, $25,000 will be donated to a 
+                      community-chosen charity foundation.</p> </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bgColor6 mono py-3 px-4 text-white">
+                    <p class="mb-1">Stage 4 - 40%</p>
+                    <p class="mb-0 opacity75">After the presale but before the public release, 7 TRIPPYs will be given away via 
+                      social media.</p>
+                  </div>
+                  <div class="bgColor7 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">Stage 5 - 50%</p><p class="mb-0 opacity75">Following this, 7760 TRIPPYs will be released onto the Solana blockchain, and 
+                      become publicly available resulting in the existence of 8888 TRIPPYs.</p>
+                  </div>
+                  <div class="bgColor8 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">Stage 6 - 60%</p>
+                    <p class="mb-0 opacity75">Once all TRIPPYs have been sold, another $25,000 will be donated to a second 
+                      community-chosen charity foundation.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bgColor9 mono py-3 px-4 text-white">
+                    <p class="mb-1">Stage 7 - 70%</p>
+                    <p class="mb-0 opacity75">TRIPPYs will be listed on both Solanart and Digital Eyes marketplaces, allowing 
+                     everyone, even those who missed out on our release, to join in on the fun.</p>
+                  </div>
+                  <div class="bgColor10 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">Stage 8 - 80%</p>
+                    <p class="mb-0 opacity75">TRIPPYs are at the forefront of innovation, and are effectively the Tesla of NFTs. 
+                      For this reason, the chance to win one of three Tesla Model 3's, for free, will be 
+                      available to all TRIPPY holders.</p>
+                  </div>
+                  <div class="bgColor11 mono py-3 px-4 text-white mt-3">
+                    <p class="mb-1">Stage 9 - 100%</p>
+                    <p class="mb-0 opacity75">Introduction of TRIPPY Households (coming soon...)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>      
+            <div class="d-none d-lg-block">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+            </div>
+            </div>
+            </div>
+            </div>
+  <!-- ==== Roadmap END ==== -->
+
+    <div id="team"></div>
+    <!-- ==== MEET OUR TEAM START ==== -->
+    <div class="rarities_container meet_up">
+      <div class="page_container h-100">
+        <div class="container-fluid h-100">
+          <div class="row justify-content-center">
+            <div data-aos="fade" class="col-11 col-md-12 mx-auto text-center">
+              <h1 class="sans text-white">Meet the Team</h1>
+              <p class="mono mb-0 text-white opacity75 mt-3 f18">Our team of highly funded NFT experts will be sure to never let a supporter down. 
+                With all of us having heavy experience in the NFT space, but specializing 
+                in certain aspects of creating a project, we have everything covered 
+                to make this project flourish and grow. You can directly contact 
+                any of our 3 creators through the TRIPPYs discord!</p>
+            </div>
+  
+            <div class="col-11 col-md-12 mx-auto mt-4">
+              <div class="row gy-4 justify-content-center gx-5">
+                <div data-aos="flip-left" data-aos-delay="300" class="col-6 col-md-4">
+                    <img class="w-100" src="./assets/images/meet/i1.svg" alt="">
+                    <div class="text-center py-2 mono">
+                      <p class="mb-0 text-white f18">Artifact</p>
+                      <p class="mb-0 text-white f18">Head Developer</p>
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="600" class="col-6 col-md-4">
+                    <img class="w-100" src="./assets/images/meet/i2.svg" alt="">
+                     <div class="text-center py-2 mono">
+                      <p class="mb-0 text-white f18">Haze</p>
+                      <p class="mb-0 text-white f18">Head Designer</p>
+                    </div>
+                </div>
+                <div data-aos="flip-left" data-aos-delay="900" class="col-6 col-md-4">
+                    <img class="w-100" src="./assets/images/meet/i3.svg" alt="">
+                     <div class="text-center py-2 mono">
+                      <p class="mb-0 text-white f18">Pure</p>
+                      <p class="mb-0 text-white f18">Public Relations</p>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+    <!-- ==== MEET OUR TEAM END ==== -->
+  
+    <div id="faq"></div>
+    <!-- ==== Rarities START ==== -->
+    <div class="rarities_container">
+      <div class="page_container h-100">
+        <div class="container-fluid h-100">
+          <div class="row">
+            <div data-aos="fade" class="col-11 col-md-12 mx-auto ">
+              <h1 class="sans text-white">FAQ</h1>
+              <p class="mono mb-0 color1 mt-3 f18">Here are some of the most asked questions our team has received during the process of 
+                making this project, check out our responses below!</p>
+            </div>
+  
+            <div data-aos="fade-up" class="faq_container col-11 col-md-12 mx-auto mt-4">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button mono text-white first"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                    Why should I join the Trippyverse?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show mono color1"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Joining the Trippyverse will give you the opportunity to gain access to one of the 
+                      strongest NFT communities in the galaxy. With countless events, prizes, and 
+                      friendly people, it opens a gateway to tons of new opportunities and entertainment. 
+                      Being an early part of the Trippyverse will also lock you in for any special plans 
+                      we have in the future, you're going to have to trust us on this, but they will be 
+                      mind boggling ;
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed mono text-white second"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                    How do I mint my own Trippy?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse mono color1"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      At the designated drop time, you will visit this website, and at the top of the 
+                      link, will have the option to connect your wallet. Once you have done this, you 
+                      will then be able to click mint, approve your transaction, and will shortly 
+                      receive one of your individualized buddies in your wallet!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed mono text-white third"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                    What can I do with my Trippy?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse mono color1"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      You can use your trippy as a key to private, holders exclusive events in our 
+                      discord, that will benefit our supporters in a plethora of ways. On top of whats 
+                      listed above, you can use your TRIPPY as a status symbol, a profile picture, or 
+                      just a piece of art work for you to enjoy for yourself.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+    <!-- ==== Rarities END ==== -->
+
+    <!-- ==== FOOTER START ==== -->
+    <div class="footer_container">
+      <img data-aos="fade" class="w-100 h-100" src="./assets/images/aboveFooter.svg" alt="">
+      <div class="page_container h-100">
+        <div class="container-fluid h-100">
+          <div class="row">
+            <div class="inner_footer col-12">
+              <img data-aos="fade" class="logo" src="./assets/images/logo.svg" alt="">
+
+              <div class="row gy-4 gx-0 gx-lg-5 mt-3">
+                <div data-aos="fade" data-aos-delay="300" class="col-11 col-lg-6 mx-auto">
+                  <h6 class="text-white f18">Navigation</h6>
+                  <ul class="d-flex flex-wrap justify-content-between list-unstyled">
+                    <li><a href="#home" >
+                      Home
+                    </a>
+                  </li>
+                    <li><a href="#about" >
+                      About Us
+                    </a>
+                  </li>
+                    <li><a href="#rar" >
+                      Rarities
+                    </a>
+                  </li>
+                    <li><a href="#rm" >
+                      Roadmap
+                    </a>
+                  </li>
+                    <li><a href="#team" >
+                      Team
+                    </a>
+                  </li>
+                    <li><a href="" >
+                      FAQ
+                    </a>
+                  </li>
+                  </ul>
+                </div>
+                <div data-aos="fade" data-aos-delay="600" class="col-11 col-lg-3 mx-auto">
+                  <h6 class="text-white f18">Useful Links</h6>
+                  <ul class="d-flex justify-content-between list-unstyled">
+                   <li>
+                    <a href="" >
+                      Terms and Conditions
+                    </a> 
+                  </li>
+                  </ul>
+                </div>
+                <div data-aos="fade" data-aos-delay="900" class="col-11 col-lg-3 mx-auto">
+                  <h6 class="text-white f18">Community</h6>
+                  <ul class="share_icons d-flex list-unstyled">
+                   <li>
+                     <a href="">
+                       <img src="./assets/images/footer/i1.svg" alt="">
+                     </a>
+                    </li>
+                    <li class="ms-2">
+                      <a href="">
+                        <img src="./assets/images/footer/i2.svg" alt="">
+                      </a>
+                    </li>
+                    <li class="ms-2">
+                      <a href="">
+                        <img src="./assets/images/footer/i3.svg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              </div>
+    <!-- ==== FOOTER END ==== -->
+  
+
+
+  
+  <!-- == EXTERNAL SCRIPTS START == -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>\
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script>	// Menu elevator animation
+   
+document.querySelector(".menu-trigger").addEventListener("click", () => {
+	document.querySelector(".menu-trigger").classList.toggle("active");
+	document.querySelector(".header-area .nav").classList.toggle("active");
+});
+
+function closeFunc () {
+	document.querySelector(".menu-trigger").classList.remove("active");
+	document.querySelector(".header-area .nav").classList.remove("active");
+
+}
+
+window.addEventListener("load", (event) => {
+			document.body.style.overflowY = "auto";
+			const load = document.querySelector("#preloader");
+			load.style.opacity = "0";
+			load.style.display = "none";
+		});
+
+    </script>
+  <!-- == EXTERNAL SCRIPTS END == -->
+</body>
+</html>
